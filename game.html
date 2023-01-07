@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>HangMan 3000</title>
+
+</head>
+<body>
+
+    <div id="container">
+        <div id="won">You won</div>
+        <div id="lost">You lost</div>
+        <div id="display">
+            <a class="back" href="index.html"><div >Back</div></a> 
+            <div id="word">     
+            </div>
+            <div id="downview">
+                <div id="keys" >
+                <button onclick="killTries(this.innerHTML)">A</button>
+                <button onclick="killTries(this.innerHTML)">B</button>
+                <button onclick="killTries(this.innerHTML)">C</button>
+                <button onclick="killTries(this.innerHTML)">D</button>
+                <button onclick="killTries(this.innerHTML)">E</button>
+                <button onclick="killTries(this.innerHTML)">F</button>
+                <button onclick="killTries(this.innerHTML)">G</button>
+                <button onclick="killTries(this.innerHTML)">H</button>
+                <button onclick="killTries(this.innerHTML)">I</button>
+                <button onclick="killTries(this.innerHTML)">J</button>
+                <button onclick="killTries(this.innerHTML)">K</button>
+                <button onclick="killTries(this.innerHTML)">L</button>
+                <button onclick="killTries(this.innerHTML)">M</button>
+                <button onclick="killTries(this.innerHTML)">N</button>
+                <button onclick="killTries(this.innerHTML)">O</button>
+                <button onclick="killTries(this.innerHTML)">P</button>
+                <button onclick="killTries(this.innerHTML)">Q</button>
+                <button onclick="killTries(this.innerHTML)">R</button>
+                <button onclick="killTries(this.innerHTML)">S</button>
+                <button onclick="killTries(this.innerHTML)">T</button>
+                <button onclick="killTries(this.innerHTML)">U</button>
+                <button onclick="killTries(this.innerHTML)">V</button>
+                <button onclick="killTries(this.innerHTML)">W</button>
+                <button onclick="killTries(this.innerHTML)">X</button>
+                <button onclick="killTries(this.innerHTML)">Y</button>
+                <button onclick="killTries(this.innerHTML)">Z</button>
+                </div>
+                <div id="hang">
+                    <div id="arm1"></div>
+                    <div id="arm2"></div>
+                    <div id="leg1"></div>
+                    <div id="leg2"></div>
+                    <div id="torso"></div>
+                    <div id="head"></div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="externalwords.js"></script>
+    <script src="script.js" ></script>
+
+</body>
+</html>
